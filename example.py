@@ -17,14 +17,20 @@ def get_entities():
   # replace with your actual entityList code
   print("")
 
+def get_position(entity):
+  # replace with your actual logic
+  return x,y,z
+
 def world_to_screen(x,y,z):
   # replace with your actual W2S code
-  print("")
+  return x,y
 
 while True:
   for entity in entities:
-    # get screen coordinates of entity
-    x,y,z = entity.get_position()
+    # get world coordinates of entity
+    x,y,z = get_position(entity)
+    # convert to screen coordinates
+    x,y = world_to_screen(x,y,z)
     # fov check
     if abs(x - screen_center[0]) < FOV and abs(y - screen_center[1]) < FOV:
       delta_x = x - screen_center[0]
