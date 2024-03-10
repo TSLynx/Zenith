@@ -1,7 +1,7 @@
 # Script to move your cursor to an entity / target
 
 **Repository Overview**
-- [Example Code](#id)
+- [Example Code](#example)
 
 
 <h2 id="example">Example Code</h2>
