@@ -5,7 +5,8 @@
 
 
 <h2 id="example">Example Code</h2>
-The code below shows an example how the script would work. You can find the code as a file (example.py) [here](https://github.com/TSLynx/ez-get-rekt/blob/main/example.py).
+
+The code below shows an example how the script would work. You can find the code as a file [here](/example.py).
 
 ```py
 # necessary imports
