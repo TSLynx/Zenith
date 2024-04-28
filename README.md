@@ -12,17 +12,25 @@ An example code can be found at the bottom of this repository.
 1. Target Priority
    - Nearest
    - Lowest
+     
 2. FOV
+   
 3. Speed
+   
 4. Adjustable for all resolutions
 
 # Installation and Usage
+
 > Based on Python example
 
 1. Install Python 3.11 or higher
+   
 2. Install necessary packages for screen capturing and image processing
+   
 3. Create your own file based on the example below or use our given file
+   
 4. Make sure to name your file `main.py`
+   
 5. Run the program with Python using the command below
 ```
 py main.py
@@ -31,6 +39,7 @@ py main.py
 # Optional Adjustments
 
 - You can add CUDA acceleration for faster results if you own a NVIDIA GPU
+  
 - You can compile your program as an .exe for easier execution
 
 # Important Information
@@ -40,6 +49,7 @@ Many games prohibit the usage of scripts in public games or in their game entire
 # TSLynx / Vyper
 
 - Discord: @vyperized
+  
 - Discord Server: https://discord.gg/gk8424YbDr
 
 # Python Example Code
